@@ -1,10 +1,13 @@
 import './App.css'
+import Balance from './Balance'
+import ShowTokens from './ShowTokens'
 
 function App() {
 
   return (
     <>
-     100xdevs
+     <Balance />
+     <ShowTokens />
     </>
   )
 }
